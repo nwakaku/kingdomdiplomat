@@ -7,9 +7,9 @@ const Hero = () => {
         <source src={video} type="video/mp4" />
       </video>
       <div className="container">
-        <h1>
+        {/* <h1>
           <span>Kingdom Diplomat</span>
-        </h1>
+        </h1> */}
         <span className="cen">Welcome To Church</span>
         <a className="button" href="#">
           Connect
