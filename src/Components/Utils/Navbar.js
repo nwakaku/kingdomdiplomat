@@ -26,7 +26,9 @@ const Navbar = () => {
             <a href="#">ABOUT US</a>
           </li>
           <li>
-            <a href="#">MESSAGES</a>
+            <a href="https://www.youtube.com/channel/UC11cQHgDCIXrdqKL4fkVlgg">
+              MESSAGES
+            </a>
           </li>
           <li>
             <a href="#">EVENTS</a>
@@ -35,7 +37,7 @@ const Navbar = () => {
             <a href="#">LOCATIONS</a>
           </li>
           <li>
-            <a href="#">ONLINE</a>
+            <a href="https://kingdomdiplomatsng.radio12345.com/">KD_RADIO</a>
           </li>
         </ul>
       </nav>

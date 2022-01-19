@@ -1,9 +1,13 @@
 import React from "react";
 import { IoLogoAmplify } from "react-icons/io5";
-import { MdDesignServices } from "react-icons/md";
+import { FaPrayingHands } from "react-icons/fa";
 import { FaPhotoVideo } from "react-icons/fa";
-import { MdOutlineAppSettingsAlt } from "react-icons/md";
+import { FaPray } from "react-icons/fa";
 import "./service.css";
+import pee from "../../pic/p3.png";
+import testimony from "../../pic/testimony.jpg";
+import prayer from "../../pic/prayer.jpg";
+import kd from "../../pic/kd.jpg";
 
 const Services = () => {
   return (
@@ -14,20 +18,16 @@ const Services = () => {
 
       <div className="row">
         <div className="image">
-          <img
-            src={
-              "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/p180x540/269926990_1085758022221130_2380124211254573887_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeH6J0IQ-Gs6EgIkNrpfp5evC8SspcObxssLxKylw5vGyyyHKDKmYL7YpMATv6kp4-EQ5z4vfUV6QwUPLRrXGKPs&_nc_ohc=FOv1rE3fGYEAX-6rPgq&tn=z4X85VlMOF8Sa0tf&_nc_ht=scontent.flos3-2.fna&oh=00_AT_gOeKArNZatIXKwjjz75fDtZjJi3htPbVUaphqmSismA&oe=61E4B5D8"
-            }
-            alt=""
-          />
+          <img src={pee} alt="" />
         </div>
         <div className="content">
           <h3>Pastor Ndukwe Ndukwe</h3>
           <p>
             Pastor Ndukwe Ndukwe is the founder of the New Covenant Family
-            Ministries and the Senior Pastor of Dominion City, International. He
-            is also the President of the Dominion Leadership Institute, and a
-            Senior Facilitator in the Institute of National Transformation.
+            Ministries and the Senior Pastor of Kingdom Diplomats,
+            International. He is also the Convener : BLACK AND BLESSED ANNUAL
+            CONFERENCE, and a Senior Facilitator in the Institute of National
+            Transformation.
             <br />
             Pastor Ndukwe Ndukwe is a minister of the Gospel, and an icon of
             transformational leadership. His passion for Personal Transformation
@@ -37,7 +37,7 @@ const Services = () => {
             globally. He is a Management and Government Consultant who speaks
             nationally and internationally in organizations, government houses,
             embassies and churches. He is a widely read author and a social
-            reformer. Pastor Ndukwe is married, with four kids.
+            reformer. Pastor Ndukwe is married, with two kids.
           </p>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Services = () => {
       <div className="row">
         <div className="content">
           <h3>
-            <MdDesignServices /> Our Core Values
+            <FaPrayingHands /> Our Core Values
           </h3>
           <ul>
             <li>
@@ -73,63 +73,59 @@ const Services = () => {
           </ul>
         </div>
         <div className="image">
-          <img
-            src={
-              "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/100324018_776678452737171_8569011091881852928_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFbd3iB-pK22d44TDzwBDBr44WIQaep1irjhYhBp6nWKpq1LqY0HubShCg7Tzk1TkOl9JO5_YnZypAQ7zEOCA0H&_nc_ohc=mujY2REbMNIAX-SN5-H&_nc_ht=scontent-los2-1.xx&oh=00_AT9mt5JFGf7sxnYkKjOwHaNrcDsqC3Cp7uPRf-eqeSs8Eg&oe=62074A79"
-            }
-            alt=""
-          />
+          <img src={kd} alt="" />
         </div>
       </div>
 
       <div className="row">
         <div className="image">
-          <img
-            src={
-              "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/269118730_1148877088850637_7791031224236847751_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFVcewcqRfS1TTCqOHhvqF1aqch9S37YVhqpyH1LfthWM46GNPl42EcJmIrNAdSPZvaC7_OlQo-lFUmWc7Puhy4&_nc_ohc=YhkMNKD86JIAX_6oCvI&_nc_ht=scontent.flos3-2.fna&oh=00_AT9g5X0WhESSzHPDEL7LQ1JI7uIbcOKh_Cqz8NLuaAjnTg&oe=61E609BC"
-            }
-            alt=""
-          />
+          <img src={testimony} alt="" />
         </div>
         <div className="content right">
           <h3>
-            <FaPhotoVideo /> TESTIMONIES
+            <FaPhotoVideo /> Have a Testimony ?
           </h3>
-          <p>
-            A picture is worth a thousand words.......and a video is worth a
-            million pictures.....
-          </p>
+          <p>Tell us what the Lord have done for you.</p>
           <br />
-          <input type="text" className="field" placeholder="Your Name" />
+          <input type="text" className="field" placeholder="Full Name" />
+          <input
+            type="text"
+            className="field"
+            placeholder="Whats Your address"
+          />
           <input type="email" className="field" placeholder="Your Email" />
-          <input type="text" className="field" placeholder="Your Phone" />
-          <textarea className="field area" placeholder="Message" />
-          <button className="btn">Send</button>
+          <input type="text" className="field" placeholder="Contact number" />
+          <textarea
+            className="field area"
+            placeholder="Type in your testimony"
+          />
+          <button className="btn">Send Testimony</button>
         </div>
       </div>
 
       <div className="row">
-        <div className="content">
+        <div className="content right">
           <h3>
-            <MdOutlineAppSettingsAlt /> Animated Explainer Videos
+            <FaPray /> Have a Prayer Request ?
           </h3>
-          <p>
-            “Animation can explain whatever the mind of man can conceive. This
-            facility makes it the most versatile and explicit means of
-            communication yet devised for quick mass appreciation.”
-            <br />
-            <br />
-            We offer you in whatever language you choose with effiency of
-            delivery
-          </p>
-          <a href="#">
-            <button className="button">Let's Chat</button>
-          </a>
+          <p>Let us pray with you.</p>
+          <br />
+          <input type="text" className="field" placeholder="Full Name" />
+          <input
+            type="text"
+            className="field"
+            placeholder="Whats Your address"
+          />
+          <input type="email" className="field" placeholder="Your Email" />
+          <input type="text" className="field" placeholder="Contact number" />
+          <textarea
+            className="field area"
+            placeholder="Type in your prayer request"
+          />
+          <button className="btn">Send Request</button>
         </div>
         <div className="image">
-          <video autoPlay loop>
-            <source src="https://f.hubspotusercontent20.net/hubfs/165225/wevideo-website-theme/videos/thumb/homepage/Home_Page_3.mp4" />
-          </video>
+          <img src={prayer} />
         </div>
       </div>
     </section>
