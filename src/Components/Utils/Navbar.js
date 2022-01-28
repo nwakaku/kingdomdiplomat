@@ -1,11 +1,19 @@
 import logo from "../../pic/logo.png";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [count, setCount] = useState(true);
+
   return (
     <div className="main-bar">
       <nav>
         <input type="checkbox" id="check" />
-        <label for="check" className="checkbtn">
+        <label
+          for="check"
+          className="checkbtn"
+          onClick={() => setCount(!count)}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -18,22 +26,29 @@ const Navbar = () => {
           </a>
         </div>
 
-        <ul>
+        <ul
+          className={`${count ? "ul" : "ul uli"}`}
+          // onClick={setCount(!count)}
+        >
           <li className="active">
-            <a href="#">HOME</a>
+            <Link to="/" href="#" onClick={() => setCount(!count)}>
+              HOME
+            </Link>
           </li>
           <li>
-            <a href="#">ABOUT US</a>
+            <a href="#" onClick={() => setCount(!count)}>
+              ABOUT US
+            </a>
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UC11cQHgDCIXrdqKL4fkVlgg">
               MESSAGES
             </a>
           </li>
-          <li>
-            <a href="#">EVENTS</a>
+          <li onClick={() => setCount(!count)}>
+            <Link to="/events">EVENTS</Link>
           </li>
-          <li>
+          <li onClick={() => setCount(!count)}>
             <a href="#">LOCATIONS</a>
           </li>
           <li>
