@@ -90,10 +90,10 @@ nav .ul li {
   border-radius: 14px;
 }
 
-nav li.active a {
-  color: #020101;
-  background-color: #fddb0d;
-  border-radius: 14px;
+nav li .active {
+  color: #020101 !important;
+  background-color: #fddb0d !important;
+  border-radius: 14px !important;
 }
 
 nav li a {

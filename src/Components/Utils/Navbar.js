@@ -1,6 +1,6 @@
 import logo from "../../pic/logo.png";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [count, setCount] = useState(true);
@@ -20,7 +20,7 @@ const Navbar = () => {
         </label>
 
         <div className="logo-header">
-          <a href="#">
+          <a to>
             {" "}
             <img src={logo} /> KINGDOMDIPLOMATS
           </a>
@@ -30,15 +30,19 @@ const Navbar = () => {
           className={`${count ? "ul" : "ul uli"}`}
           // onClick={setCount(!count)}
         >
-          <li className="active">
-            <Link to="/" href="#" onClick={() => setCount(!count)}>
+          <li >
+            <NavLink to="/"  className={({ isActive }) =>
+              isActive ? 'active' : undefined
+            }
+
+             onClick={() => setCount(!count)}>
               HOME
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <a href="#" onClick={() => setCount(!count)}>
+            <NavLink to='/about' onClick={() => setCount(!count)}>
               ABOUT US
-            </a>
+            </NavLink>
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UC11cQHgDCIXrdqKL4fkVlgg">
@@ -46,10 +50,10 @@ const Navbar = () => {
             </a>
           </li>
           <li onClick={() => setCount(!count)}>
-            <Link to="/events">EVENTS</Link>
+            <NavLink to="/events">EVENTS</NavLink>
           </li>
           <li onClick={() => setCount(!count)}>
-            <a href="#">LOCATIONS</a>
+            <NavLink to ='/location'>LOCATIONS</NavLink>
           </li>
           <li>
             <a href="https://kingdomdiplomatsng.radio12345.com/">KD_RADIO</a>

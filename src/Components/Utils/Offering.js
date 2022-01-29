@@ -5,6 +5,12 @@ import partner from "../../pic/partner.png";
 import paypal from "../../pic/paypal.png";
 import card from "../../pic/card.png";
 import details from "../../pic/details.png";
+import { SiBitcoincash } from "react-icons/si";
+import { FaChurch} from "react-icons/fa";
+import { FcDonate } from "react-icons/fc";
+import { FcEnteringHeavenAlive, FcSmartphoneTablet, FcCurrencyExchange, FcBusiness, FcHome} from "react-icons/fc";
+
+
 
 const Offering = () => {
   return (
@@ -25,7 +31,8 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={pic} />
+                <FcCurrencyExchange />
+                {/* <img src={pic} /> */}
               </div>
               <h4>Honour Pastor Ndukwe</h4>
               <button>Give</button>
@@ -34,7 +41,7 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={partner} />
+                <FcBusiness />
               </div>
               <h4>Partnership</h4>
               <button>Give</button>
@@ -43,7 +50,7 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={build} />
+                <FcHome />
               </div>
               <h4>Projects</h4>
               <button>Give</button>
@@ -68,7 +75,7 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={paypal} />
+                <FcDonate />
               </div>
               <h4>Paypal</h4>
               <p>Give with Paypal | SECURED | USD, GBP, EUR, CAD</p>
@@ -78,7 +85,7 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={card} />
+                <FcEnteringHeavenAlive />
               </div>
               <h4>Card & Transfer</h4>
               <p>Give with Paystack | SECURED | USD, NGN</p>
@@ -88,7 +95,7 @@ const Offering = () => {
           <div className="box">
             <div className="ser-box">
               <div className="icon">
-                <img src={details} />
+                <FcSmartphoneTablet />
               </div>
               <h4>Bank Details</h4>
               <p>Give via Bank Transfer | SECURED | USD, NGN</p>

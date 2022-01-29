@@ -40,7 +40,10 @@
 }
 
 .offer h2 span {
-  color: #3c44a9;
+  color: #3586ff;
+    background-color: #0201017e;
+  padding: 2rem;
+  border-radius: 0.7rem;
 }
 
 .offering-title h2 {
@@ -77,13 +80,13 @@
   margin-bottom: 0;
   transform: translateY(-50%);
   text-align: center;
-  box-shadow: 5px 5px blue, 10px 10px #efbb20, 15px 15px #27ae60;
+  /* box-shadow: 5px 5px white, 10px 10px gray, 15px 15px rgb(150, 150, 250); */
   border-radius: 50%;
   padding: 2rem 0;
 }
 
-.ser-box img {
-  width: 50%;
+.ser-box .icon {
+  font-size: 60px;
 }
 
 .ser-box h4 {
