@@ -30,19 +30,19 @@ const Navbar = () => {
           className={`${count ? "ul" : "ul uli"}`}
           // onClick={setCount(!count)}
         >
-          <li >
-            <NavLink to="/"  className={({ isActive }) =>
-              isActive ? 'active' : undefined
-            }
-
-             onClick={() => setCount(!count)}>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+              onClick={() => setCount(!count)}
+            >
               HOME
             </NavLink>
           </li>
           <li>
-            <NavLink to='/about' onClick={() => setCount(!count)}>
+            <a href="#" onClick={() => setCount(!count)}>
               ABOUT US
-            </NavLink>
+            </a>
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UC11cQHgDCIXrdqKL4fkVlgg">
@@ -53,7 +53,7 @@ const Navbar = () => {
             <NavLink to="/events">EVENTS</NavLink>
           </li>
           <li onClick={() => setCount(!count)}>
-            <NavLink to ='/location'>LOCATIONS</NavLink>
+            <a href="#">LOCATIONS</a>
           </li>
           <li>
             <a href="https://kingdomdiplomatsng.radio12345.com/">KD_RADIO</a>

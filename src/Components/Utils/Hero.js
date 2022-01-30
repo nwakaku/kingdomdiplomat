@@ -11,7 +11,10 @@ const Hero = () => {
           <span>Kingdom Diplomat</span>
         </h1> */}
         <span className="cen">Welcome To Church</span>
-        <a className="button" href="#">
+        <a
+          className="button"
+          href="https://www.youtube.com/channel/UC11cQHgDCIXrdqKL4fkVlgg"
+        >
           Connect
         </a>
       </div>
