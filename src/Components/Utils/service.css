@@ -21,7 +21,10 @@ img {
   font-variant: small-caps;
   text-align: center;
   font-weight: bold;
-  padding: 15px 0px 15px 0px; /* Tweak this to your liking */
+  /* padding: 15px 0px 15px 0px; */
+  /* padding: 2rem; */
+  border-radius: 0.7rem;
+  margin-bottom: -2rem;
 }
 
 .row {

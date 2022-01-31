@@ -1,8 +1,10 @@
 import video from "../../pic/banner.mp4";
+import a from "../../pic/a.jpg";
 
 const Hero = () => {
   return (
     <div className="main-image">
+      <img src={a} />
       <video id="video2" preload autoPlay muted playsInline loop>
         <source src={video} type="video/mp4" />
       </video>

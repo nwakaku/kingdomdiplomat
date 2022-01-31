@@ -1,5 +1,4 @@
 import React from "react";
-import { IoLogoAmplify } from "react-icons/io5";
 import { FaPrayingHands } from "react-icons/fa";
 import { FaPhotoVideo } from "react-icons/fa";
 import { FaPray } from "react-icons/fa";
@@ -8,8 +7,45 @@ import pee from "../../pic/p3.png";
 import testimony from "../../pic/testimony.jpg";
 import prayer from "../../pic/prayer.jpg";
 import kd from "../../pic/kd.jpg";
+import { useState } from "react/cjs/react.development";
+import emailjs from "@emailjs/browser";
+
+const Result = () => {
+  return <p>your message has been successfully sent</p>;
+};
+
+const Testimony = () => {
+  return <p>your Testimony has been successfully sent</p>;
+};
 
 const Services = () => {
+  const [result, setResult] = useState(false);
+  setTimeout(() => {
+    setResult(false);
+  }, 5000);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jvqask9",
+        "template_y69jt8o",
+        e.target,
+        "user_SjwEuTOfAY5wWWnuOiNxx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    setResult(true);
+  };
+
   return (
     <section id="service" className="service">
       <h1>
@@ -23,11 +59,10 @@ const Services = () => {
         <div className="content">
           <h3>Pastor Ndukwe Ndukwe</h3>
           <p>
-            Pastor Ndukwe Ndukwe is the founder of the New Covenant Family
-            Ministries and the Senior Pastor of Kingdom Diplomats,
-            International. He is also the Convener : BLACK AND BLESSED ANNUAL
-            CONFERENCE, and a Senior Facilitator in the Institute of National
-            Transformation.
+            Pastor Ndukwe Ndukwe is the founder of DIPLOMAT SCHOOL OF LEADERSHIP
+            and the Senior Pastor of Kingdom Diplomats, International. He is
+            also the Convener : BLACK AND BLESSED ANNUAL CONFERENCE, and a
+            Senior Facilitator in the Institute of National Transformation.
             <br />
             Pastor Ndukwe Ndukwe is a minister of the Gospel, and an icon of
             transformational leadership. His passion for Personal Transformation
@@ -87,19 +122,41 @@ const Services = () => {
           </h3>
           <p>Tell us what the Lord have done for you.</p>
           <br />
-          <input type="text" className="field" placeholder="Full Name" />
-          <input
-            type="text"
-            className="field"
-            placeholder="Whats Your address"
-          />
-          <input type="email" className="field" placeholder="Your Email" />
-          <input type="text" className="field" placeholder="Contact number" />
-          <textarea
-            className="field area"
-            placeholder="Type in your testimony"
-          />
-          <button className="btn">Send Testimony</button>
+          <form onSubmit={sendEmail}>
+            <input
+              type="text"
+              className="field"
+              placeholder="Full Name"
+              name="firstname"
+            />
+            <input
+              type="text"
+              className="field"
+              placeholder="Whats Your address"
+              name="lastname"
+            />
+            <input
+              type="email"
+              className="field"
+              placeholder="Your Email"
+              name="email"
+            />
+            <input
+              type="text"
+              className="field"
+              placeholder="Contact number"
+              name="phone"
+            />
+            <textarea
+              className="field area"
+              placeholder="Type in your testimony"
+              name="message"
+            />
+            <button type="submit" className="btn">
+              Send Testimony
+            </button>
+            <div>{result ? <Result /> : null}</div>
+          </form>
         </div>
       </div>
 
@@ -110,19 +167,41 @@ const Services = () => {
           </h3>
           <p>Let us pray with you.</p>
           <br />
-          <input type="text" className="field" placeholder="Full Name" />
-          <input
-            type="text"
-            className="field"
-            placeholder="Whats Your address"
-          />
-          <input type="email" className="field" placeholder="Your Email" />
-          <input type="text" className="field" placeholder="Contact number" />
-          <textarea
-            className="field area"
-            placeholder="Type in your prayer request"
-          />
-          <button className="btn">Send Request</button>
+          <form onSubmit={sendEmail}>
+            <input
+              type="text"
+              className="field"
+              placeholder="Full Name"
+              name="firstname"
+            />
+            <input
+              type="text"
+              className="field"
+              placeholder="Whats Your address"
+              name="lastname"
+            />
+            <input
+              type="email"
+              className="field"
+              placeholder="Your Email"
+              name="email"
+            />
+            <input
+              type="text"
+              className="field"
+              placeholder="Contact number"
+              name="phone"
+            />
+            <textarea
+              className="field area"
+              placeholder="Type in your testimony"
+              name="message"
+            />
+            <button type="submit" className="btn">
+              Send Request
+            </button>
+            <div>{result ? <Testimony /> : null}</div>
+          </form>
         </div>
         <div className="image">
           <img src={prayer} />
