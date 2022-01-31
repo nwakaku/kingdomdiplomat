@@ -1,5 +1,5 @@
 import video from "../../pic/banner.mp4";
-import a from "../../pic/a.jpg";
+import a from "../../pic/coverkd.jpg";
 
 const Hero = () => {
   return (

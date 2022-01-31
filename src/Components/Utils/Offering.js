@@ -1,16 +1,16 @@
 import "./offering.css";
 import pic from "../../pic/cred.png";
 import build from "../../pic/build.png";
-import partner from "../../pic/partner.png";
-import paypal from "../../pic/paypal.png";
-import card from "../../pic/card.png";
-import details from "../../pic/details.png";
 import { SiBitcoincash } from "react-icons/si";
-import { FaChurch} from "react-icons/fa";
+import { FaChurch } from "react-icons/fa";
 import { FcDonate } from "react-icons/fc";
-import { FcEnteringHeavenAlive, FcSmartphoneTablet, FcCurrencyExchange, FcBusiness, FcHome} from "react-icons/fc";
-
-
+import {
+  FcEnteringHeavenAlive,
+  FcSmartphoneTablet,
+  FcCurrencyExchange,
+  FcBusiness,
+  FcHome,
+} from "react-icons/fc";
 
 const Offering = () => {
   return (
