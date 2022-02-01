@@ -53,7 +53,7 @@ const Navbar = () => {
             <NavLink to="/events">EVENTS</NavLink>
           </li>
           <li onClick={() => setCount(!count)}>
-            <a href="#">LOCATIONS</a>
+            <NavLink to="/location">LOCATIONS</NavLink>
           </li>
           <li>
             <a href="https://kingdomdiplomatsng.radio12345.com/">KD_RADIO</a>
