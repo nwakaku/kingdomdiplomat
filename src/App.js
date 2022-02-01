@@ -1,13 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import LandingPage from "./Components/Pages/LandingPage";
-import Aos from "aos";
 import Events from "./Components/Pages/Events";
 import Location from "./Components/Pages/Location";
 
 const App = () => {
-  Aos.init();
-
   return (
     <Router>
       <Routes>
