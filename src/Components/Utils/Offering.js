@@ -1,8 +1,4 @@
 import "./offering.css";
-import pic from "../../pic/cred.png";
-import build from "../../pic/build.png";
-import { SiBitcoincash } from "react-icons/si";
-import { FaChurch } from "react-icons/fa";
 import { FcDonate } from "react-icons/fc";
 import {
   FcEnteringHeavenAlive,

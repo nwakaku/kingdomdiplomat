@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPrayingHands } from "react-icons/fa";
 import { FaPhotoVideo } from "react-icons/fa";
 import { FaPray } from "react-icons/fa";
@@ -7,7 +7,6 @@ import pee from "../../pic/p3.png";
 import testimony from "../../pic/testimony.jpg";
 import prayer from "../../pic/prayer.jpg";
 import kd from "../../pic/kd.jpg";
-import { useState } from "react/cjs/react.development";
 import emailjs from "@emailjs/browser";
 
 const Result = () => {
