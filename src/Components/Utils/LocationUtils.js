@@ -24,7 +24,7 @@ const LocationUtils = () => {
           <tr>
             <td data-aria-label="No">1 </td>
             <td data-aria-label="State">Enugu</td>
-            <td data-aria-label="Locations">KD Complex Ogui Road</td>
+            <td data-aria-label="Locations">KD Headquarters Ogui Road</td>
             <td data-aria-label="Country">Nig</td>
             <td data-aria-label="Head Pastor">Pst Ndukwe Ndukwe</td>
             <td data-aria-label="Teaching">
@@ -43,7 +43,7 @@ const LocationUtils = () => {
           <tr>
             <td data-aria-label="No">2</td>
             <td data-aria-label="State">Abia</td>
-            <td data-aria-label="Locations">KD_Aba</td>
+            <td data-aria-label="Locations">KD complex @(MTN office Building)upstairs, Brass Junction, ABA.</td>
             <td data-aria-label="Country">Nig</td>
             <td data-aria-label="Head Pastor">Pst Frank Erondu</td>
             <td data-aria-label="Teaching">
@@ -59,7 +59,7 @@ const LocationUtils = () => {
           <tr>
             <td data-aria-label="No">3</td>
             <td data-aria-label="State">Abia</td>
-            <td data-aria-label="Locations">KD_Mouau Umuahia</td>
+            <td data-aria-label="Locations">Conference Hall, Felina Hotels and Towers #52 ABA Road Umuahia,(OPP. MTN OFFICE)</td>
             <td data-aria-label="Country">Nig</td>
             <td data-aria-label="Head Pastor">Pst Sam</td>
             <td data-aria-label="Teaching">
@@ -74,8 +74,8 @@ const LocationUtils = () => {
 
           <tr>
             <td data-aria-label="No">4</td>
-            <td data-aria-label="State">Abia</td>
-            <td data-aria-label="Locations">KD_Absu Uturu </td>
+            <td data-aria-label="State">Imo</td>
+            <td data-aria-label="Locations">KD OWERRI Plot 129A Ikenegbu Layout Owerri, Imo State opp Florida Bookshop.</td>
             <td data-aria-label="Country">Nig</td>
             <td data-aria-label="Head Pastor">Pst KingDavid</td>
             <td data-aria-label="Teaching">
@@ -90,8 +90,8 @@ const LocationUtils = () => {
 
           <tr>
             <td data-aria-label="No">5</td>
-            <td data-aria-label="State">Imo</td>
-            <td data-aria-label="Locations">KD_Futo Iheagwa</td>
+            <td data-aria-label="State">Akwa Ibom</td>
+            <td data-aria-label="Locations">Kingdom Diplomats Complex #115 Udo Umana Street, Uyo (Opposite discovery park)</td>
             <td data-aria-label="Country">Nig</td>
             <td data-aria-label="Head Pastor">Pst Uche</td>
             <td data-aria-label="Teaching">

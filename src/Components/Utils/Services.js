@@ -203,7 +203,7 @@ const Services = () => {
           </form>
         </div>
         <div className="image">
-          <img src={prayer} />
+          <img src={prayer} alt="#"/>
         </div>
       </div>
     </section>

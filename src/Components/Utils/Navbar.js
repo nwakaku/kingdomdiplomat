@@ -40,7 +40,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <a href="#" onClick={() => setCount(!count)}>
+            <a href="#service" onClick={() => setCount(!count)}>
               ABOUT US
             </a>
           </li>
