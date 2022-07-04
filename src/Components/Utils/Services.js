@@ -5,7 +5,7 @@ import { FaPray } from "react-icons/fa";
 import "./service.css";
 import pee from "../../pic/p3.png";
 import testimony from "../../pic/testimony.jpg";
-import prayer from "../../pic/prayer.jpg";
+import pstndukwewife from "../../pic/pstndukwewife.jpg";
 import kd from "../../pic/kd.jpg";
 import emailjs from "@emailjs/browser";
 
@@ -203,7 +203,7 @@ const Services = () => {
           </form>
         </div>
         <div className="image">
-          <img src={prayer} alt="#"/>
+          <img src={pstndukwewife} alt="#"/>
         </div>
       </div>
     </section>

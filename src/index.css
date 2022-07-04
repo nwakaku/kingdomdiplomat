@@ -19,6 +19,7 @@ body {
   background-color: #22272b !important;
   display: flow-root;
   padding: 0 10%;
+  overflow-y: scroll;
 }
 #check {
   display: none;
