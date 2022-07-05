@@ -83,26 +83,37 @@ const Services = () => {
           </h3>
           <ul>
             <li>
-              Explore the values that embody the vision of Kingdom Diplomats.
-              Our values reflect our mission to transform the total man so we
-              can impact our communities.
+           <b>God's Presence:</b> <br/>
+            God's presence is a place where prayer is heard.
+            David sought the Lord's presence when Israel faced a three-year famine ( 2 Sam 21:1 ).
+            Paul constantly interceded for the Thessalonian church, bringing their name before the Father's presence ( 1 Thess 1:3 ).
+            Furthermore, God promises to hear and forgive those who come into his presence with humble repentance ( 2 Chron 7:14 ).
             </li>
             <li>
-              Leadership Institute We strongly believe in leadership and
-              transformation. We are committed to raising and developing sons
-              and daughters in Christ, who will transform society at large,
-              through various spheres of life.
+            <b>Excellence:</b><br/>
+            The pursuit of excellence is never a matter of simply choosing between what is good or bad,
+            but of choosing what is best or superior because it will better enable us to accomplish what God has designed us to be and do (cf. Phil. 1:9 with Eph. 2:10).
             </li>
             <li>
-              Our Beliefs Discover how we view God, Jesus, the Bible, man, and
-              many significant aspects of our faith. Our beliefs are shaped by
-              biblical truths and our decisions as a church are guided by
-              Scripture.
+             <b>Leadership:</b><br/>
+             Biblical leadership is serving others from a place of selflessness and sacrifice that points to God.
+             Biblical leadership is about serving others.
+             Leadership is not about position, privilege, or power. John 13:2-17 (NIV)
             </li>
             <li>
-              Ministries designed to meet the specific needs and desires of our
-              members and the body of Christ at large, while fulfilling its
-              mission to raise leaders that transform society.
+              <b>knowledge:</b><br/>
+              The word knowledge in the Bible denotes an understanding, a recognition, or an acknowledgment. 
+              To “know” something is to perceive it or to be aware of it.
+              The Bible is clear that the knowledge of God is the most valuable knowledge a human being can possess.
+              But it is also clear that simply being aware of God’s existence is not sufficient; 
+              the knowledge of God must encompass the deep appreciation for and relationship with Him.
+            </li>
+            <li>
+              <b>Societal Relevance:</b><br/>
+              A main characteristic of societal relevance is the quest towards 
+              answering questions that society asks or to solve problems it faces.
+              Jesus answered, “It is not the healthy who need a doctor, but the sick.
+              I have not come to call the righteous, but sinners, to repentance.” luke 5:32
             </li>
           </ul>
         </div>
